@@ -1,0 +1,14 @@
+# Variáveis de ambiente (nunca subir chaves de API)
+.env
+
+# Ambiente virtual Python
+.venv/
+venv/
+
+# Banco vetorial local gerado pelo ChromaDB
+db/
+
+# Cache do Python e configurações locais do editor
+__pycache__/
+*.pyc
+.vscode/
